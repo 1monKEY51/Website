@@ -10,30 +10,19 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
-          <LinkItem href="tel:314-343-3432">314-343-3432</LinkItem>
+          <LinkItem href="tel:0766783670">076 678 3670</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
           <LinkItem href="mailto:contact@jsmastery.com">
-            contact@jsmastery.com
+            immelmananthonie@protonmail.com
           </LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Innovating one project at a time</Slogan>
+          <Slogan><i>"Tell me and I forget. Teach me and I remember. Involve me and I learn."</i> - Benjamin Franklin</Slogan>
         </CompanyContainer>
-        <SocialContainer>
-          <SocialIcons href="https://google.com">
-            <AiFillGithub size="3rem" />
-          </SocialIcons>
-          <SocialIcons href="https://google.com">
-            <AiFillLinkedin size="3rem" />
-          </SocialIcons>
-          <SocialIcons href="https://google.com">
-            <AiFillInstagram size="3rem" />
-          </SocialIcons>
-        </SocialContainer>
       </SocialIconsContainer>
     </FooterWrapper>
   );

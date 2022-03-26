@@ -4,11 +4,11 @@ const BackgroundAnimation = () => (
   <div>
     <svg
       className="BgAnimation__svg"
-      viewBox="0 0 602 602"
+      viewBox="0 0 550 550"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g opacity="0.15">
+      <g opacity="0.25">
         <path
           fillRule="evenodd"
           clipRule="evenodd"
@@ -33,7 +33,7 @@ const BackgroundAnimation = () => (
         transform="translate(-295.027 -193.118)"
         rx="1.07306"
         ry="1.07433"
-        fill="#945DD6"
+        fill="#F4F2F3"
       >
         <animateMotion dur="10s" repeatCount="indefinite" rotate="auto">
           <mpath xlinkHref="#path_2" />
@@ -54,7 +54,7 @@ const BackgroundAnimation = () => (
         transform="translate(-295.027 -193.118)"
         rx="1.07306"
         ry="1.07433"
-        fill="#46737"
+        fill="#F4F2F3"
       >
         <animateMotion
           dur="5s"
@@ -85,7 +85,7 @@ const BackgroundAnimation = () => (
         rx="1.07433"
         ry="1.07306"
         transform="translate(-476.525 -363.313) rotate(90 476.525 363.313)"
-        fill="#945DD6"
+        fill="#F4F2F3"
       >
         <animateMotion dur="10s" repeatCount="indefinite" rotate="auto">
           <mpath xlinkHref="#path_0" />
@@ -106,7 +106,7 @@ const BackgroundAnimation = () => (
         rx="1.07433"
         ry="1.07306"
         transform="translate(-382.164 -155.029) rotate(90 382.164 155.029)"
-        fill="#F46737"
+        fill="#F4F2F3"
       >
         <animateMotion
           dur="10s"
@@ -137,7 +137,7 @@ const BackgroundAnimation = () => (
         rx="1.07306"
         ry="1.07433"
         transform="translate(-333.324 -382.691) rotate(-180 333.324 382.691)"
-        fill="#F46737"
+        fill="#F4F2F3"
       >
         <animateMotion
           dur="5s"
@@ -168,7 +168,7 @@ const BackgroundAnimation = () => (
         rx="1.07306"
         ry="1.07433"
         transform="translate(-165.524 -93.9596)"
-        fill="#F46737"
+        fill="#F4F2F3"
       >
         <animateMotion
           dur="10s"
@@ -199,7 +199,7 @@ const BackgroundAnimation = () => (
         rx="1.07433"
         ry="1.07306"
         transform="translate(-476.525 -363.313) rotate(90 476.525 363.313)"
-        fill="#13ADC7"
+        fill="#F4F2F3"
       >
         <animateMotion
           dur="12s"

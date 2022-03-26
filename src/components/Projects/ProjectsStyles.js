@@ -12,7 +12,7 @@ display: grid;
 grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 padding: 3rem;
 place-items: center;
-column-gap: 2rem;
+column-gap: 3rem;
 row-gap: 3rem;
 @media ${(props) => props.theme.breakpoints.sm} {
   display: flex;
@@ -23,8 +23,8 @@ row-gap: 3rem;
 
 `
 export const BlogCard = styled.div`
-  border-radius: 10px;
-  box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
+  border-radius: 3px;
+  box-shadow: 3px 3px 30px rgba(80, 78, 78, 0.5);
   text-align: center;
   width: 400px;
   @media ${(props) => props.theme.breakpoints.sm} {
@@ -40,7 +40,7 @@ export const TitleContent = styled.div`
 
 
 export const HeaderThree = styled.h3`
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 2px;
   color: #9cc9e3;
   padding: .5rem 0;
@@ -92,11 +92,11 @@ export const ExternalLinks = styled.a`
 color:#f1f1f1;
 font-size: 1.6rem;
 padding:1rem 1.5rem;
-background: #6b3030;
+background: #023e8a;
 border-radius: 15px;
 transition: 0.5s;
 &:hover{
-  background: #7289da;
+  background: #00b4d8;
 
 }
 `;

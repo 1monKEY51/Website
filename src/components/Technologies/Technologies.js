@@ -1,147 +1,174 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiPerl, DiAws, DiReact, DiGitBranch, DiRedhat, DiBackbone, DiDatabase, DiRasberryPi, DiTerminal } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
 const Technologies = () =>  (
   <Section id="tech">
     <SectionDivider divider />
-    <SectionTitle>Skills and Technologies</SectionTitle>
+    <SectionTitle>Skills & Technologies</SectionTitle>
     <SectionText>
-      I've worked with a range a technologies in the web development world.
-      From Back-end To Design
+      I've worked with a range a technologies and fields including: <br/>
+      ▼ Cyber Security <br/>
+      ▼ Cloud & Network Architecture <br/>
+      ▼ Backend developer [Python / Serverless] <br/>
+      ▼ Computer Vision <br/>
+      ▼ Mecha-tronic Engineering <br/>
     </SectionText>
     <List>
     <ListItem>
-        <picture>
-          <DiFirebase size="3rem" />
-        </picture>
         <ListContainer>
-          <ListTitle>Offensive Security</ListTitle>
+          <ListTitle>
+            <picture>
+              <DiRedhat size="3rem" />
+            </picture>
+            Offensive Security</ListTitle>
           <ListParagraph>
-            Penetration Testing <br/>
-            Advanced Exploitation <br />
-            Privilege Escalation <br />
-            Sosial Engineering <br />
+            ◘ Penetration Testing <br/>
+            ◘ Advanced Exploitation <br />
+            ◘ Privilege Escalation <br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <picture>
-          <DiReact size="3rem" />
-        </picture>
+
         <ListContainer>
-          <ListTitle>Cyber Defence</ListTitle>
+          <ListTitle>
+            <picture>
+              <DiBackbone size="3rem" />
+            </picture>
+            Cyber Defence</ListTitle>
           <ListParagraph>
-            Threat & Vulnerability Management <br />
-            Threat Emulation <br />
-            Incident Response & Forensics <br />
-            Malware Analysis
+          ◘ Threat & Vulnerability Management <br />
+          ◘ Threat Emulation <br />
+          ◘ Incident Response <br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <picture>
-          <DiZend size="3rem" />
-        </picture>
         <ListContainer>
-          <ListTitle>SOC</ListTitle>
+          <ListTitle>
+            <picture>
+              <DiTerminal size="3rem" />
+            </picture> 
+            SOC</ListTitle>
           <ListParagraph>
-            Security Operations & Monitoring <br />
-            Security Onion and CyberEasy <br />
-            Zeek Automation <br />
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-    </List>
-    <List>
-      <ListItem>
-        <picture>
-          <DiReact size="3rem" />
-        </picture>
-        <ListContainer>
-          <ListTitle>Front-End</ListTitle>
-          <ListParagraph>
-            React Native, React.js<br />
-            Next.js <br />
-            JavaScript, HTML & CSS <br />
-            Tailwind
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-      <ListItem>
-        <picture>
-          <DiFirebase size="3rem" />
-        </picture>
-        <ListContainer>
-          <ListTitle>Back-End</ListTitle>
-          <ListParagraph>
-            Python (Flask & Django) <br />
-            C# <br />
-            Postgres <br />
-            GraphQL & RESTful <br />
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-      <ListItem>
-        <picture>
-          <DiZend size="3rem" />
-        </picture>
-        <ListContainer>
-          <ListTitle>DevSecOps</ListTitle>
-          <ListParagraph>
-            Snyk and Checkmarx <br />
-            Secure Code with CI/CD
+          ◘ Security Operations & Monitoring <br />
+          ◘ Security Onion <br />
+          ◘ SIEM and SOAR <br />
+          ◘ IDS / IPS 
           </ListParagraph>
         </ListContainer>
       </ListItem>
     </List>
     <List>
       <ListItem>
-        <picture>
-          <DiReact size="3rem" />
-        </picture>
         <ListContainer>
-          <ListTitle>Cloud</ListTitle>
+          <ListTitle>
+            <picture>
+              <DiReact size="3rem" />
+            </picture>
+            Front-End</ListTitle>
           <ListParagraph>
-            AWS <br />
-            Azure <br />
-            Serverless Framework: <br />
-              ~ CloudFormation <br />
-              ~ Terraform
+          ◘ JavaScript, HTML & CSS <br />
+          ◘ React Native, React.js<br />
+          ◘ Next.js <br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <picture>
-          <DiZend size="3rem" />
-        </picture>
         <ListContainer>
-          <ListTitle>Web3</ListTitle>
+          <ListTitle>
+            <picture>
+              <DiDatabase size="3rem" />
+            </picture>
+            Back-End</ListTitle>
           <ListParagraph>
-            Solidity and Web3.js <br />
-            Etherium, Polygon  Solana <br />
-            Zero Knowledge Proof Applications <br />
-            Crypto Tokens <br /> 
-            Smart Contracts, NFTS & DAO<br />
+          ◘ Python <br />
+          ◘ YAML, Cloudformation & Terraform <br />
+          ◘ GraphQL & RESTful APIs<br />
+          ◘ Postgres <br />
+          ◘ C# <br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <picture>
-          <DiZend size="3rem" />
-        </picture>
         <ListContainer>
-          <ListTitle>Computer Systems Engineering
+          <ListTitle>
+            <picture>
+              <DiGitBranch size="3rem" />
+            </picture>
+            DevSecOps</ListTitle>
+          <ListParagraph>
+          ◘ Checkmarx <br />
+          ◘ SonarQube <br />
+          ◘ Codeacy <br />
+          ◘ Snyk <br />
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+    </List>
+    <List>
+      <ListItem>
+        <ListContainer>
+          <ListTitle>
+            <picture>
+              <DiAws size="3rem" />
+            </picture>
+          Cloud & System Administartor</ListTitle>
+          <ListParagraph>
+          ◘ Cisco & Mikrotik network devices<br />
+          ◘ Amazon Web Serives <br />
+          ◘ Microsoft: <br />
+          └ Azure <br />
+          └ Office 365 <br />
+          └ Windows 7 - 11 <br />
+          └ Server 2012 & R2 / 2016 / 2019 <br />
+          ◘ Linux: <br />
+          └ Kali <br />
+          └ Ubuntu  <br />
+          ◘ Google: <br />
+          └ Google Cloud <br />
+          └ Enterprise Suite   <br />
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <ListContainer>
+          <ListTitle>
+            <picture>
+              <DiRasberryPi size="3rem" />
+            </picture>
+            Computer Systems Engineering
           </ListTitle>
           <ListParagraph>
-            Arduino and Raspberry <br />
-            Drone Technologies <br />
-            ~ OpenCV <br />
-            ~ DroneKit <br />
-            ~ MAVProxy <br />
-            ~ MAVLink <br />
-            ~ ArduPilot <br />
+          ◘ Arduino & Raspberry <br />
+          ◘ Computer Vision <br />
+          └ OpenCV <br />
+          └ Terraform <br />
+          └ Keras <br />
+          ◘ Drone Technologies <br />
+          └ DroneKit <br />
+          └ MAVProxy <br />
+          └ MAVLink <br />
+          └ ArduPilot <br />
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <ListContainer>
+          <ListTitle>
+            <picture>
+              <DiPerl size="3rem" />
+            </picture>
+            Web3, Crypto and DAPPs
+          </ListTitle>
+          <ListParagraph>
+          ◘ Solidity <br />
+          ◘ Smart Contracts <br />
+          ◘ Cryptocurrencies and Tokens <br />
+          ◘ Decentralized Votting Systems <br />
+          ◘ Decentralized Autonomous Organization <br />
           </ListParagraph>
         </ListContainer>
       </ListItem>

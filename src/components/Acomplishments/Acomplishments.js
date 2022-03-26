@@ -4,15 +4,16 @@ import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalCompon
 import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
 
 const data = [
-  { number: 1, text: 'Cisco Certfication', },
-  { number: 1, text: 'Microsoft Certification', },
-  { number: 1, text: 'CompTIA Certification'},
+  { number: 1, text: 'Cisco CCNA', },
+  { number: 1, text: 'Microsoft MCSA', },
+  { number: 1, text: 'CompTIA N+'},
+  { number: 2, text: 'Top Student of class at CTU [2019 & 2020]', },
+  { number: 2, text: 'Class Repeceitive at CTU [2019 & 2020]', },
   { number: 3, text: 'Udemy certficates of completion', },
-  { number: 22, text: 'Cybary certficates of completion', },
-  { number: 2, text: 'Class Top Student at CTU', },
+  { number: 16, text: 'Cybary certficates of completion', },
   { number: 3, text: 'TryHackMe Career paths', },
-  { number: 287, text: 'TryHackMe Ranking South Africa', },
-  { number: 48821, text: 'TryHackMe Ranking International', },
+  { number: 287, text: 'Ranking for TryHackMe in South Africa', },
+  { number: 48821, text: 'Ranking for TryHackMe Internationally', },
 ];
 
 const Acomplishments = () => (

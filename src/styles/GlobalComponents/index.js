@@ -78,13 +78,13 @@ export const SectionText = styled.p`
 
 export const SectionDivider = styled.div`
 
-  width: 64px;
+  width: 620px;
   height: 6px;
   border-radius: 10px;
   background-color: #fff;
   background: ${(props) => props.colorAlt ? 
-    'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' :
-    'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
+    'linear-gradient(270deg, #00254d 0%, #5CE1E6 100%)' :
+    'linear-gradient(270deg, #00254d 0%, #5CE1E7 100%)'};
 
     margin: ${(props) => props.divider ? "4rem 0" : "" };
 

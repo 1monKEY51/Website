@@ -9,13 +9,12 @@ const Hero = (props) => (
     <Section row nopadding>
       <LeftSection>
         <SectionTitle main center>
-          My Professional Portfolio
+        Anthonie Immelman
         </SectionTitle>
         <SectionText>
-          Currently the DevSecOps Engineer at Bettr, a South African FinTech Startup and part-time Ethical Hacker.
-          Former Backend developer and IT Systems Engineer intresented in becomming a Cybersecurity Specialist.  
-        </SectionText>
-        <Button onClick={props.handleClick}>Learn More</Button>
+        I am currently the Cyber Security Engineer and Backend Developer at Bettr, responsible for Vulnerability Management and Cloud Security.        </SectionText>
+        <SectionText>
+        Tolerant to change and uncertainty, with experience working under pressure in the financial, computer vision, and agriculture technology startup sectors.        </SectionText>
       </LeftSection>
     </Section>
   </>
