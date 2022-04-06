@@ -13,7 +13,7 @@ const Technologies = () =>  (
       ▼ Cloud & Network Architecture <br/>
       ▼ Backend developer [Python / Serverless] <br/>
       ▼ Computer Vision <br/>
-      ▼ Mecha-tronic Engineering <br/>
+      ▼ Mechatronic Engineering <br/>
     </SectionText>
     <List>
     <ListItem>
@@ -24,9 +24,10 @@ const Technologies = () =>  (
             </picture>
             Offensive Security</ListTitle>
           <ListParagraph>
-            ◘ Penetration Testing <br/>
-            ◘ Advanced Exploitation <br />
-            ◘ Privilege Escalation <br />
+            ◘ Exploiting web applications through today’s most common vulnerabilities <br />
+            ◘ Understanding Windows active directory and attacking Kerberos <br />
+            ◘ Password Cracking, Metasploit Framework & Basic exploit development <br />
+            ◘ Post exploitation techniques (with Powerview, Bloodhound and Mimikatz) <br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -42,6 +43,10 @@ const Technologies = () =>  (
           ◘ Threat & Vulnerability Management <br />
           ◘ Threat Emulation <br />
           ◘ Incident Response <br />
+          ◘ Active Reconnaissance & Vulnerability Scanning<br />
+            └[nmap, burp, Wireshark, OpenVas & Nessus]<br />
+          ◘ Industry standard penetration testing tools [OWASP]<br/>
+          ◘ Identifying and exploiting different network services <br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -70,6 +75,7 @@ const Technologies = () =>  (
             </picture>
             Front-End</ListTitle>
           <ListParagraph>
+          ◘ Wordpress & Webflow<br />
           ◘ JavaScript, HTML & CSS <br />
           ◘ React Native, React.js<br />
           ◘ Next.js <br />
@@ -86,9 +92,9 @@ const Technologies = () =>  (
           <ListParagraph>
           ◘ Python <br />
           ◘ YAML, Cloudformation & Terraform <br />
-          ◘ GraphQL & RESTful APIs<br />
           ◘ Postgres <br />
           ◘ C# <br />
+          ◘ PowerShell & Bash <br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -100,6 +106,7 @@ const Technologies = () =>  (
             </picture>
             DevSecOps</ListTitle>
           <ListParagraph>
+          ◘ Github Actions <br />
           ◘ Checkmarx <br />
           ◘ SonarQube <br />
           ◘ Codeacy <br />
@@ -127,6 +134,8 @@ const Technologies = () =>  (
           ◘ Linux: <br />
           └ Kali <br />
           └ Ubuntu  <br />
+          └ Arch  <br />
+          └ Tails  <br />
           ◘ Google: <br />
           └ Google Cloud <br />
           └ Enterprise Suite   <br />
@@ -142,16 +151,11 @@ const Technologies = () =>  (
             Computer Systems Engineering
           </ListTitle>
           <ListParagraph>
-          ◘ Arduino & Raspberry <br />
+          ◘ Arduino & Raspberry Pi<br />
           ◘ Computer Vision <br />
           └ OpenCV <br />
           └ Terraform <br />
           └ Keras <br />
-          ◘ Drone Technologies <br />
-          └ DroneKit <br />
-          └ MAVProxy <br />
-          └ MAVLink <br />
-          └ ArduPilot <br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
