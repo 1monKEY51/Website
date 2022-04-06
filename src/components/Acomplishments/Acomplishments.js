@@ -12,8 +12,6 @@ const data = [
   { number: 3, text: 'Udemy certficates of completion', },
   { number: 16, text: 'Cybary certficates of completion', },
   { number: 2, text: 'TryHackMe Career paths', },
-  { number: 191, text: 'Ranking for TryHackMe in South Africa', },
-  { number: 33434, text: 'Ranking for TryHackMe Internationally', },
 ];
 
 const Acomplishments = () => (
