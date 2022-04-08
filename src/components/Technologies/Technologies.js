@@ -10,8 +10,8 @@ const Technologies = () =>  (
     <SectionText>
       I've worked with a range a technologies and fields including: <br/>
       ▼ Cyber Security <br/>
-      ▼ Cloud & Network Architecture <br/>
-      ▼ Backend developer [Python / Serverless] <br/>
+      ▼ Cloud Architecture <br/>
+      ▼ Backend development <br/>
       ▼ Computer Vision <br/>
       ▼ Mechatronic Engineering <br/>
     </SectionText>
@@ -26,8 +26,10 @@ const Technologies = () =>  (
           <ListParagraph>
             ◘ Exploiting web applications through today’s most common vulnerabilities <br />
             ◘ Understanding Windows active directory and attacking Kerberos <br />
-            ◘ Password Cracking, Metasploit Framework & Basic exploit development <br />
-            ◘ Post exploitation techniques (with Powerview, Bloodhound and Mimikatz) <br />
+            ◘ Password Cracking <br />
+            ◘ Metasploit Framework <br />
+            ◘ Post exploitation techniques <br />
+            ◘ OWASP Industry standard penetration testing tools [OWASP]<br/>
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -44,9 +46,10 @@ const Technologies = () =>  (
           ◘ Threat Emulation <br />
           ◘ Incident Response <br />
           ◘ Active Reconnaissance & Vulnerability Scanning<br />
-            └[nmap, burp, Wireshark, OpenVas & Nessus]<br />
-          ◘ Industry standard penetration testing tools [OWASP]<br/>
-          ◘ Identifying and exploiting different network services <br />
+            └ Nmap<br />
+            └ Burp<br />
+            └ OpenVas<br />
+            └ Nessus<br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -92,7 +95,7 @@ const Technologies = () =>  (
           <ListParagraph>
           ◘ Python <br />
           ◘ YAML, Cloudformation & Terraform <br />
-          ◘ Postgres <br />
+          ◘ SQL, PostgreSQL <br />
           ◘ C# <br />
           ◘ PowerShell & Bash <br />
           </ListParagraph>
@@ -165,14 +168,11 @@ const Technologies = () =>  (
             <picture>
               <DiPerl size="3rem" />
             </picture>
-            Web3, Crypto and DAPPs
+            Web3
           </ListTitle>
           <ListParagraph>
           ◘ Solidity <br />
           ◘ Smart Contracts <br />
-          ◘ Cryptocurrencies and Tokens <br />
-          ◘ Decentralized Votting Systems <br />
-          ◘ Decentralized Autonomous Organization <br />
           </ListParagraph>
         </ListContainer>
       </ListItem>

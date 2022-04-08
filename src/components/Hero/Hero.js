@@ -12,9 +12,11 @@ const Hero = (props) => (
         Anthonie Immelman
         </SectionTitle>
         <SectionText>
-        I am currently the Cyber Security Engineer and Backend Developer at Bettr, responsible for Vulnerability Management and Cloud Security.        </SectionText>
+        I am the Cyber Security Engineer at Bettr, a previous Backend Developer, in charge of Vulnerability Management and Cloud Security.</SectionText>
         <SectionText>
-        Tolerant to change and uncertainty, with experience working under pressure in the financial, computer vision, and agriculture technology startup sectors.        </SectionText>
+        Tolerant of change and uncertainty, with prior experience working under pressure in startups in finance, computer vision, and agricultural technology.</SectionText>
+        <SectionText>
+        CCNA, MCSA and CompTIA N+ Certified.</SectionText>
       </LeftSection>
     </Section>
   </>
