@@ -12,11 +12,14 @@ const Hero = (props) => (
         Anthonie Immelman
         </SectionTitle>
         <SectionText>
-        I am the Cyber Security Engineer at Bettr, a previous Backend Developer, in charge of Vulnerability Management and Cloud Security.</SectionText>
+        Conscientious Cyber Security Engineer with +6 years of experience in IT and engineering, working in the fintech, computer vision, and agriculture/mining sectors. 
+        </SectionText>
         <SectionText>
-        Tolerant of change and uncertainty, with prior experience working under pressure in startups in finance, computer vision, and agricultural technology.</SectionText>
+        CCNA certified and am currently working toward my CompTIA Security+ accreditation. Aspiring to become a Security Architect.
+        </SectionText>
         <SectionText>
-        CCNA, MCSA and CompTIA N+ Certified.</SectionText>
+        Generally in the Top 5% international on TryHackMe.
+        </SectionText>
       </LeftSection>
     </Section>
   </>

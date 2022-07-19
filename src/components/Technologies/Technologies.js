@@ -10,8 +10,7 @@ const Technologies = () =>  (
     <SectionText>
       I've worked with a range a technologies and fields including: <br/>
       ▼ Cyber Security <br/>
-      ▼ Cloud Architecture <br/>
-      ▼ Backend development <br/>
+      ▼ Backend Development <br/>
       ▼ Computer Vision <br/>
       ▼ Mechatronic Engineering <br/>
     </SectionText>
@@ -24,17 +23,17 @@ const Technologies = () =>  (
             </picture>
             Offensive Security</ListTitle>
           <ListParagraph>
-            ◘ Exploiting web applications through today’s most common vulnerabilities <br />
-            ◘ Understanding Windows active directory and attacking Kerberos <br />
-            ◘ Password Cracking <br />
+            ◘ Nmap <br />
+            ◘ Burp <br />
+            ◘ Nessus <br />
+            ◘ OpenVas<br />
             ◘ Metasploit Framework <br />
-            ◘ Post exploitation techniques <br />
-            ◘ OWASP Industry standard penetration testing tools [OWASP]<br/>
+            ◘ Bloodhound <br />
+            ◘ Home made and other tools
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-
         <ListContainer>
           <ListTitle>
             <picture>
@@ -42,14 +41,12 @@ const Technologies = () =>  (
             </picture>
             Cyber Defence</ListTitle>
           <ListParagraph>
+          ◘ Security Operations & Monitoring <br />
           ◘ Threat & Vulnerability Management <br />
-          ◘ Threat Emulation <br />
-          ◘ Incident Response <br />
-          ◘ Active Reconnaissance & Vulnerability Scanning<br />
-            └ Nmap<br />
-            └ Burp<br />
-            └ OpenVas<br />
-            └ Nessus<br />
+          ◘ SIEM and SOAR <br />
+          ◘ IDS / IPS <br />
+          ◘ Password Analysis <br />
+          ◘ Simualted phishing campgains
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -59,12 +56,17 @@ const Technologies = () =>  (
             <picture>
               <DiTerminal size="3rem" />
             </picture> 
-            SOC</ListTitle>
+            GRC</ListTitle>
           <ListParagraph>
-          ◘ Security Operations & Monitoring <br />
-          ◘ Security Onion <br />
-          ◘ SIEM and SOAR <br />
-          ◘ IDS / IPS 
+          ◘ Governance <br />
+          └ Ensure the efficient use of IT <br />
+          ◘ Risk management <br />
+          └ Qualitative Risk Assessment<br />
+          ◘ Compliance <br />
+          └ PCI-DSS <br />
+          └ CIS <br />
+          ◘ Standards <br />
+          └ OWASP <br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -109,11 +111,10 @@ const Technologies = () =>  (
             </picture>
             DevSecOps</ListTitle>
           <ListParagraph>
-          ◘ Github Actions <br />
-          ◘ Checkmarx <br />
+          ◘ SCA Snyk <br />
           ◘ SonarQube <br />
-          ◘ Codeacy <br />
-          ◘ Snyk <br />
+          ◘ Checkmarx <br />
+          ◘ Github Actions <br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -127,21 +128,15 @@ const Technologies = () =>  (
             </picture>
           Cloud & System Administartor</ListTitle>
           <ListParagraph>
-          ◘ Cisco & Mikrotik network devices<br />
-          ◘ Amazon Web Serives <br />
+          ◘ AWS <br />
           ◘ Microsoft: <br />
           └ Azure <br />
           └ Office 365 <br />
           └ Windows 7 - 11 <br />
-          └ Server 2012 & R2 / 2016 / 2019 <br />
-          ◘ Linux: <br />
-          └ Kali <br />
-          └ Ubuntu  <br />
-          └ Arch  <br />
-          └ Tails  <br />
-          ◘ Google: <br />
-          └ Google Cloud <br />
-          └ Enterprise Suite   <br />
+          └ Server 2012&R2/2016/2019 <br />
+          ◘ Linux <br />
+          ◘ Cisco & Mikrotik network devices<br />
+          ◘ Google workspaces <br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -158,7 +153,6 @@ const Technologies = () =>  (
           ◘ Computer Vision <br />
           └ OpenCV <br />
           └ Terraform <br />
-          └ Keras <br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -173,6 +167,7 @@ const Technologies = () =>  (
           <ListParagraph>
           ◘ Solidity <br />
           ◘ Smart Contracts <br />
+          ◘ Crypto Tokens
           </ListParagraph>
         </ListContainer>
       </ListItem>

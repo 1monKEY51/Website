@@ -9,21 +9,21 @@ export const projects = [
     id: 0,
   },
   {
-    title: 'SERVERLESS INFRASTRUCTURE-AS-CODE',
-    description:"Provision, build & deploy a serverless applications on AWS with Cloudformation and Terraform. Serverless Architecture is a way to build & run applications, and services without having to manage infrastructure",
-    image: '/images/SAIC.jpg',
-    tags: ['YAML', 'Cloudformation','Terraform'],
-    source: 'https://github.com/AntImmelman/Serverless-Infrastructure-as-Code',
-    visit: 'https://github.com/AntImmelman/Serverless-Infrastructure-as-Code',
-    id: 1,
-  },
-  {
     title: 'FACIAL RECOGNITIONING ATTENDANCE STSTEM',
     description: "The system works on face recognition where each student / employee is photographed. The teacher/supervisior can then record the attendance. Built with Python using OpenCV and Facial Recognition libraries",
     image: '/images/FRAS.jpg',
     tags: ['Python', 'OpenCV', 'Numpy'],
     source: 'https://github.com/AntImmelman/Computer-Vision-Research/tree/main/Facial_Recognition_Attendance_System',
     visit: 'https://github.com/AntImmelman/Computer-Vision-Research/tree/main/Facial_Recognition_Attendance_System',
+    id: 1,
+  },
+  {
+    title: 'SERVERLESS INFRASTRUCTURE-AS-CODE',
+    description:"Provision, build & deploy a serverless applications on AWS with Cloudformation and Terraform. Serverless Architecture is a way to build & run applications, and services without having to manage infrastructure",
+    image: '/images/SAIC.jpg',
+    tags: ['YAML', 'Cloudformation','Terraform'],
+    source: 'https://github.com/AntImmelman/Serverless-Infrastructure-as-Code',
+    visit: 'https://github.com/AntImmelman/Serverless-Infrastructure-as-Code',
     id: 2,
   },
   {
@@ -83,5 +83,5 @@ export const TimeLineData = [
   { year: 2020, text: 'Studied Cloud & Cybersecurity Professional at CTU', },
   { year: 2020, text: 'Part-time Computer Vision Researcher internship at KFT', },
   { year: 2021, text: 'Started as a Backend developer at Bettr and changed to Cybersecurity Engineer', },
-  { year: 2022, text: 'Cybersecurity Engineer at Bettr', },
+  { year: 2022, text: 'Lead Cybersecurity Engineer at Bettr', },
 ];

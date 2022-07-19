@@ -5,12 +5,10 @@ import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
 
 const data = [
   { number: 1, text: 'Cisco CCNA', },
-  { number: 1, text: 'Microsoft MCSA', },
-  { number: 1, text: 'CompTIA N+'},
   { number: 2, text: 'Top Student of class at CTU [2019 & 2020]', },
   { number: 2, text: 'Class representative at CTU [2019 & 2020]', },
   { number: 3, text: 'Udemy certficates of completion', },
-  { number: 16, text: 'Cybary certficates of completion', },
+  { number: 8, text: 'Cybary certficates of completion', },
   { number: 2, text: 'TryHackMe Career paths', },
 ];
 
