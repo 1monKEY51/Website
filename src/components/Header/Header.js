@@ -16,7 +16,7 @@ const Header = () =>  (
     </Div1>
     <Div2>
       <li>
-        <NavLink href="https://drive.protonmail.com/urls/JY5PQKQFTM#ReEmxjnlUGH8">CV / Resume</NavLink>
+        <NavLink href="https://drive.proton.me/urls/MXGK5YPY94#6PCVQJoupM0u">CV / Resume</NavLink>
       </li>
       <li>
         <Link href="#projects">
