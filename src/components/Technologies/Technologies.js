@@ -29,7 +29,6 @@ const Technologies = () =>  (
             ◘ OpenVas<br />
             ◘ Metasploit Framework <br />
             ◘ Bloodhound <br />
-            ◘ Home made and other tools
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -43,8 +42,8 @@ const Technologies = () =>  (
           <ListParagraph>
           ◘ Security Operations & Monitoring <br />
           ◘ Threat & Vulnerability Management <br />
-          ◘ SIEM and SOAR <br />
-          ◘ IDS / IPS <br />
+          ◘ SIEM <br />
+          ◘ IDS<br />
           ◘ Password Analysis <br />
           ◘ Simualted phishing campgains
           </ListParagraph>

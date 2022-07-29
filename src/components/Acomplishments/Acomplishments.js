@@ -8,7 +8,7 @@ const data = [
   { number: 2, text: 'Top Student of class at CTU [2019 & 2020]', },
   { number: 2, text: 'Class representative at CTU [2019 & 2020]', },
   { number: 3, text: 'Udemy certficates of completion', },
-  { number: 8, text: 'Cybary certficates of completion', },
+  { number: 10, text: 'Cybary certficates of completion', },
   { number: 2, text: 'TryHackMe Career paths', },
 ];
 

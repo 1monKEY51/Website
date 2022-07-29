@@ -12,14 +12,13 @@ const Hero = (props) => (
         Anthonie Immelman
         </SectionTitle>
         <SectionText>
-        Conscientious Cyber Security Engineer with +6 years of experience in IT and engineering, working in the fintech, computer vision, and agriculture/mining sectors. 
+        Conscientious cyber security engineer with almost seven years of IT experience in multiple industries.
         </SectionText>
         <SectionText>
-        CCNA certified and am currently working toward my CompTIA Security+ accreditation. Aspiring to become a Security Architect.
+        CCNA certified and working towards CompTIA Security+ accreditation, aspiring to become a Security Architect.
         </SectionText>
         <SectionText>
-        Generally in the Top 5% international on TryHackMe.
-        </SectionText>
+        Received the top student award for the classes of 2019 and 2020 and was assigned as class representative for two consecutive years in a row, is generally in the top 4% globally on TryHackMe.        </SectionText>
       </LeftSection>
     </Section>
   </>
